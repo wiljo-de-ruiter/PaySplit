@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0CB1A32949098D00459BE7 /* PaySplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB1A22949098D00459BE7 /* PaySplitApp.swift */; };
+		9A0CB1A52949098D00459BE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB1A42949098D00459BE7 /* ContentView.swift */; };
+		9A0CB1A72949099000459BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0CB1A62949099000459BE7 /* Assets.xcassets */; };
+		9A0CB1AA2949099000459BE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0CB1A92949099000459BE7 /* Preview Assets.xcassets */; };
+		9A0CB1B42949099000459BE7 /* PaySplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB1B32949099000459BE7 /* PaySplitTests.swift */; };
+		9A0CB1BE2949099000459BE7 /* PaySplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB1BD2949099000459BE7 /* PaySplitUITests.swift */; };
+		9A0CB1C02949099000459BE7 /* PaySplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CB1BF2949099000459BE7 /* PaySplitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0CB1B02949099000459BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0CB1972949098D00459BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0CB19E2949098D00459BE7;
+			remoteInfo = PaySplit;
+		};
+		9A0CB1BA2949099000459BE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0CB1972949098D00459BE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0CB19E2949098D00459BE7;
+			remoteInfo = PaySplit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A0CB19F2949098D00459BE7 /* PaySplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaySplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0CB1A22949098D00459BE7 /* PaySplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySplitApp.swift; sourceTree = "<group>"; };
+		9A0CB1A42949098D00459BE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A0CB1A62949099000459BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0CB1A92949099000459BE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A0CB1AF2949099000459BE7 /* PaySplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0CB1B32949099000459BE7 /* PaySplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySplitTests.swift; sourceTree = "<group>"; };
+		9A0CB1B92949099000459BE7 /* PaySplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0CB1BD2949099000459BE7 /* PaySplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySplitUITests.swift; sourceTree = "<group>"; };
+		9A0CB1BF2949099000459BE7 /* PaySplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0CB19C2949098D00459BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CB1AC2949099000459BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CB1B62949099000459BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0CB1962949098D00459BE7 = {
+			isa = PBXGroup;
+			children = (
+				9A0CB1A12949098D00459BE7 /* PaySplit */,
+				9A0CB1B22949099000459BE7 /* PaySplitTests */,
+				9A0CB1BC2949099000459BE7 /* PaySplitUITests */,
+				9A0CB1A02949098D00459BE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0CB1A02949098D00459BE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CB19F2949098D00459BE7 /* PaySplit.app */,
+				9A0CB1AF2949099000459BE7 /* PaySplitTests.xctest */,
+				9A0CB1B92949099000459BE7 /* PaySplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0CB1A12949098D00459BE7 /* PaySplit */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CB1A22949098D00459BE7 /* PaySplitApp.swift */,
+				9A0CB1A42949098D00459BE7 /* ContentView.swift */,
+				9A0CB1A62949099000459BE7 /* Assets.xcassets */,
+				9A0CB1A82949099000459BE7 /* Preview Content */,
+			);
+			path = PaySplit;
+			sourceTree = "<group>";
+		};
+		9A0CB1A82949099000459BE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CB1A92949099000459BE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A0CB1B22949099000459BE7 /* PaySplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CB1B32949099000459BE7 /* PaySplitTests.swift */,
+			);
+			path = PaySplitTests;
+			sourceTree = "<group>";
+		};
+		9A0CB1BC2949099000459BE7 /* PaySplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0CB1BD2949099000459BE7 /* PaySplitUITests.swift */,
+				9A0CB1BF2949099000459BE7 /* PaySplitUITestsLaunchTests.swift */,
+			);
+			path = PaySplitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0CB19E2949098D00459BE7 /* PaySplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0CB1C32949099000459BE7 /* Build configuration list for PBXNativeTarget "PaySplit" */;
+			buildPhases = (
+				9A0CB19B2949098D00459BE7 /* Sources */,
+				9A0CB19C2949098D00459BE7 /* Frameworks */,
+				9A0CB19D2949098D00459BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaySplit;
+			productName = PaySplit;
+			productReference = 9A0CB19F2949098D00459BE7 /* PaySplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0CB1AE2949099000459BE7 /* PaySplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0CB1C62949099000459BE7 /* Build configuration list for PBXNativeTarget "PaySplitTests" */;
+			buildPhases = (
+				9A0CB1AB2949099000459BE7 /* Sources */,
+				9A0CB1AC2949099000459BE7 /* Frameworks */,
+				9A0CB1AD2949099000459BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0CB1B12949099000459BE7 /* PBXTargetDependency */,
+			);
+			name = PaySplitTests;
+			productName = PaySplitTests;
+			productReference = 9A0CB1AF2949099000459BE7 /* PaySplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A0CB1B82949099000459BE7 /* PaySplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0CB1C92949099000459BE7 /* Build configuration list for PBXNativeTarget "PaySplitUITests" */;
+			buildPhases = (
+				9A0CB1B52949099000459BE7 /* Sources */,
+				9A0CB1B62949099000459BE7 /* Frameworks */,
+				9A0CB1B72949099000459BE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0CB1BB2949099000459BE7 /* PBXTargetDependency */,
+			);
+			name = PaySplitUITests;
+			productName = PaySplitUITests;
+			productReference = 9A0CB1B92949099000459BE7 /* PaySplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0CB1972949098D00459BE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9A0CB19E2949098D00459BE7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9A0CB1AE2949099000459BE7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A0CB19E2949098D00459BE7;
+					};
+					9A0CB1B82949099000459BE7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A0CB19E2949098D00459BE7;
+					};
+				};
+			};
+			buildConfigurationList = 9A0CB19A2949098D00459BE7 /* Build configuration list for PBXProject "PaySplit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0CB1962949098D00459BE7;
+			productRefGroup = 9A0CB1A02949098D00459BE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0CB19E2949098D00459BE7 /* PaySplit */,
+				9A0CB1AE2949099000459BE7 /* PaySplitTests */,
+				9A0CB1B82949099000459BE7 /* PaySplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0CB19D2949098D00459BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0CB1AA2949099000459BE7 /* Preview Assets.xcassets in Resources */,
+				9A0CB1A72949099000459BE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CB1AD2949099000459BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CB1B72949099000459BE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0CB19B2949098D00459BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0CB1A52949098D00459BE7 /* ContentView.swift in Sources */,
+				9A0CB1A32949098D00459BE7 /* PaySplitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CB1AB2949099000459BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0CB1B42949099000459BE7 /* PaySplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CB1B52949099000459BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0CB1C02949099000459BE7 /* PaySplitUITestsLaunchTests.swift in Sources */,
+				9A0CB1BE2949099000459BE7 /* PaySplitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0CB1B12949099000459BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0CB19E2949098D00459BE7 /* PaySplit */;
+			targetProxy = 9A0CB1B02949099000459BE7 /* PBXContainerItemProxy */;
+		};
+		9A0CB1BB2949099000459BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0CB19E2949098D00459BE7 /* PaySplit */;
+			targetProxy = 9A0CB1BA2949099000459BE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A0CB1C12949099000459BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A0CB1C22949099000459BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0CB1C42949099000459BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaySplit/Preview Content\"";
+				DEVELOPMENT_TEAM = STFSXZZN89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wiljoderuiter.www.PaySplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A0CB1C52949099000459BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaySplit/Preview Content\"";
+				DEVELOPMENT_TEAM = STFSXZZN89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wiljoderuiter.www.PaySplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A0CB1C72949099000459BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STFSXZZN89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wiljoderuiter.www.PaySplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaySplit";
+			};
+			name = Debug;
+		};
+		9A0CB1C82949099000459BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STFSXZZN89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wiljoderuiter.www.PaySplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaySplit";
+			};
+			name = Release;
+		};
+		9A0CB1CA2949099000459BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STFSXZZN89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wiljoderuiter.www.PaySplitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaySplit;
+			};
+			name = Debug;
+		};
+		9A0CB1CB2949099000459BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STFSXZZN89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.wiljoderuiter.www.PaySplitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaySplit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0CB19A2949098D00459BE7 /* Build configuration list for PBXProject "PaySplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0CB1C12949099000459BE7 /* Debug */,
+				9A0CB1C22949099000459BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0CB1C32949099000459BE7 /* Build configuration list for PBXNativeTarget "PaySplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0CB1C42949099000459BE7 /* Debug */,
+				9A0CB1C52949099000459BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0CB1C62949099000459BE7 /* Build configuration list for PBXNativeTarget "PaySplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0CB1C72949099000459BE7 /* Debug */,
+				9A0CB1C82949099000459BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0CB1C92949099000459BE7 /* Build configuration list for PBXNativeTarget "PaySplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0CB1CA2949099000459BE7 /* Debug */,
+				9A0CB1CB2949099000459BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0CB1972949098D00459BE7 /* Project object */;
+}
